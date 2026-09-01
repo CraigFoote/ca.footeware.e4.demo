@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Footeware e4 Product" uid="ca.footeware.e4.demo.product" id="ca.footeware.e4.demo.product" application="ca.footeware.e4.app.id1" version="0.0.1.qualifier" type="features" includeLaunchers="true" includeJRE="true" autoIncludeRequirements="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages/>
+
+
+   <launcher name="Footeware-Demo">
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <linux include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-26</linux>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="ca.footeware.e4.feature" installMode="root"/>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
+   </features>
+
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

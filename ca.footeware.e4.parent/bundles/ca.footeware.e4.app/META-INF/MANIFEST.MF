@@ -8,4 +8,4 @@ Require-Bundle: org.eclipse.swt,
  org.eclipse.jface,
  org.eclipse.equinox.app
 Automatic-Module-Name: ca.footeware.e4.app
-Bundle-RequiredExecutionEnvironment: JavaSE-25
+Bundle-RequiredExecutionEnvironment: JavaSE-26

@@ -10,6 +10,9 @@
             icon="icons/1293911687.svg"
             thread="main"
             visible="true">
+         <run
+               class="ca.footeware.e4.app.Application">
+         </run>
       </application>
    </extension>
 
