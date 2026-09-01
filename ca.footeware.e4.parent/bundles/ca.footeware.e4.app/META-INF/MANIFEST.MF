@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Footeware e4 Application
+Bundle-SymbolicName: ca.footeware.e4.app;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: Footeware.ca
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.equinox.app
+Automatic-Module-Name: ca.footeware.e4.app
+Bundle-RequiredExecutionEnvironment: JavaSE-25

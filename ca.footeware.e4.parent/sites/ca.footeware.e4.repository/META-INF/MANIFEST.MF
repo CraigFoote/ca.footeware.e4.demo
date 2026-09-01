@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Footeware e4 Repository
+Bundle-SymbolicName: ca.footeware.e4.repository
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: Footeware.ca
+Automatic-Module-Name: ca.footeware.e4.repository
+Bundle-RequiredExecutionEnvironment: JavaSE-25

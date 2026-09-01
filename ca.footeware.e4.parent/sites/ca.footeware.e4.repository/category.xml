@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="ca.footeware.e4.feature">
+      <category name="footeware_category_1"/>
+   </feature>
+   <category-def name="footeware_category_1" label="Footeware e4"/>
+</site>
