@@ -10,10 +10,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-		<properties>
-			<maven.compiler.source>26</maven.compiler.source>
-			<maven.compiler.target>26</maven.compiler.target>
-		</properties>
+	<properties>
+		<maven.compiler.source>26</maven.compiler.source>
+		<maven.compiler.target>26</maven.compiler.target>
+	</properties>
 
 	<modules>
 		<module>bundles</module>
@@ -44,33 +44,6 @@
 						</artifact>
 					</target>
 				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-p2-director-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<configuration>
-					<products>
-						<product>
-							<id>ca.footeware.e4.demo</id>
-						</product>
-					</products>
-				</configuration>
-				<executions>
-					<execution>
-						<id>materialize-products</id>
-						<goals>
-							<goal>materialize-products</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>archive-products</id>
-						<goals>
-							<goal>archive-products</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
