@@ -6,9 +6,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ca.footeware.e4</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Footeware e4 Parent</name>
+	<name>Footeware e4 Demo</name>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -20,8 +20,8 @@
 	<modules>
 		<module>bundles</module>
 		<module>features</module>
-		<module>sites</module>
 		<module>products</module>
+		<module>sites</module>
 	</modules>
 
 	<build>
@@ -40,7 +40,7 @@
 				<configuration>
 					<target>
 						<artifact>
-							<groupId>ca.footeware.e4</groupId>
+							<groupId>ca.footeware.e4.demo</groupId>
 							<artifactId>targetplatform</artifactId>
 							<version>0.0.1-SNAPSHOT</version>
 						</artifact>

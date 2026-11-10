@@ -6,8 +6,8 @@
          id="ca.footeware.e4.demo.product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="Footeware e4 Product"
-            application="ca.footeware.e4.app.id1">
+            name="Footeware e4 Demo Product"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
       </product>
    </extension>
 

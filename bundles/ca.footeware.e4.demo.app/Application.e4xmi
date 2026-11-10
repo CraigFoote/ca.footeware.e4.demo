@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmi:id="_4wQScKWOEfGgVKMrEtFNfQ" elementId="ca.footeware.e4.app.application">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_4wQScKWOEfGgVKMrEtFNfQ" elementId="ca.footeware.e4.app.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_fMILENy8EfGkNL2tZVzGKA" elementId="ca.footeware.e4.demo.trimmedwindow.footewaree4demo" label="Footeware e4 Demo" tooltip="Footeware e4 Demo"/>
   <addons xmi:id="_4wQScaWOEfGgVKMrEtFNfQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_4wQScqWOEfGgVKMrEtFNfQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_4wQSc6WOEfGgVKMrEtFNfQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

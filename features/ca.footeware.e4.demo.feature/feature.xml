@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ca.footeware.e4.feature"
-      label="Footeware e4 Feature"
+      id="ca.footeware.e4.demo.feature"
+      label="Footeware e4 Demo Feature"
       version="0.0.1.qualifier"
       provider-name="Footeware.ca">
 
@@ -18,7 +18,7 @@
    </license>
 
    <plugin
-         id="ca.footeware.e4.app"
+         id="ca.footeware.e4.demo.app"
          version="0.0.0"/>
 
 </feature>
