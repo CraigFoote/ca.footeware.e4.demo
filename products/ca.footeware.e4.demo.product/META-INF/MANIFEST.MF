@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Footeware e4 Demo Product
-Bundle-SymbolicName: ca.footeware.e4.demo.product;singleton:=true
-Bundle-Version: 0.0.1.qualifier
-Bundle-Vendor: Footeware.ca
-Automatic-Module-Name: ca.footeware.e4.product
-Bundle-RequiredExecutionEnvironment: JavaSE-26

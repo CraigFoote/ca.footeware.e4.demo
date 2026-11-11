@@ -20,8 +20,7 @@
 	<modules>
 		<module>bundles</module>
 		<module>features</module>
-		<module>products</module>
-		<module>sites</module>
+		<module>releng</module>
 	</modules>
 
 	<build>
